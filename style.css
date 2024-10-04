@@ -1,0 +1,300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Alegreya", serif;
+    font-weight: 600;
+}
+
+body {
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+span {
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    color: orange;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    margin: 30px 0px 0px 60px;
+    z-index: 1;
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    margin: 30px 0px 0px 600px;
+    z-index: 1;
+}
+
+
+/* NOTE: HOME */
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 16px;
+}
+
+#home-img1 {
+    width: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-img2 {
+    margin: -190px 0px 0px 0px;
+    filter: brightness(40%);
+    position: fixed;
+    z-index: -1;
+}
+
+#home-welcome {
+    position: relative;
+    text-align: center;
+    margin-top: -480px;
+    z-index: 1;
+    color: aliceblue;
+}
+
+#home-welcome span {
+    font-family: "Dancing Script", cursive;
+    font-size: 100px;
+    color: orange;
+}
+
+#home-welcome h1 {
+    font-size: 50px;
+}
+
+#home-welcome p {
+    font-size: 13px;
+}
+
+
+/* NOTE: OUR STORY */
+#our-story {
+    text-align: center;
+    z-index: 1;
+    color: black;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    padding: 40px 0px;
+    background-color: white;
+}
+
+#story-content-group {
+    width: 100%;
+    padding: 160px 0px;
+}
+
+.story-content {
+    flex: 50%;
+    padding: 70px 0px 0px 0px;
+}
+
+.story-img {
+    display: flex;
+}
+
+.story-img>img {
+    width: 280px;
+    height: 450px;
+    object-fit: cover;
+    margin: 0px 20px;
+    border-radius: 11px;
+}
+
+
+/* NOTE: RECIPE */
+#recipe {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding: 0px 0px 80px 0px;
+    background-color: white;
+}
+
+.recipe-images {
+    flex: 33.3%;
+    padding: 5px;
+    position: relative;
+}
+
+.recipe-img {
+    width: 100%;
+    filter: brightness(55%);
+}
+
+.recipe-images>h1 {
+    position: absolute;
+    text-align: center;
+    margin: -330px 0px 0px 130px;
+    font-size: 50px;
+    color: white;
+}
+
+/* NOTE: MENU */
+#menu {
+    display: flex;
+    padding: 50px 50px 80px 50px;
+    background-color: white;
+
+}
+
+.menu-content {
+    flex: 1;
+}
+
+.menu-images {
+    display: flex;
+}
+
+.menu-content img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top 30px;
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#menu-content-head {
+    text-align: center;
+    margin: 170px 0px 0px 0px;
+}
+
+/* NOTE: BLEND */
+#blend {
+    width: 100%;
+    height: 885px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+
+.blend {
+    background-color: white;
+}
+
+.blend-img {
+    width: 100%;
+    margin: -0px 0px 0px 0px;
+    background-color: white;
+    filter: brightness(60%);
+}
+
+.blend h1 {
+    position: absolute;
+    text-align: center;
+    left: 605px;
+    top: 300px;
+    font-size: 55px;
+    color: white;
+    z-index: 1;
+}
+
+
+/* NOTE: DELIGHT */
+#delight {
+    text-align: center;
+    z-index: 1;
+    color: black;
+    display: flex;
+    width: 100%;
+    height: 550px;
+    padding: 100px 0px 0px 0px;
+    background-color: white;
+}
+
+#delight-content-group {
+    padding: 70px 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.delight-content {
+    flex: 50%;
+    padding: 70px 0px 0px 0px;
+
+}
+
+#delight-img-group {
+    margin-right: 80px;
+}
+
+.delight-img {
+    display: flex;
+}
+
+.delight-img>img {
+    width: 280px;
+    height: 450px;
+    object-fit: cover;
+    margin: 0px 20px;
+    border-radius: 11px;
+}
+
+/* NOTE: FOOTER */
+#footer {
+    text-align: center;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    height: 350px;
+    padding-top: 40px;
+}
+
+.footer-content p {
+    margin: 30px 300px 50px 300px;
+    font-weight: 400;
+}
+
+.footer-link {
+    display: flex;
+    margin: 1% 0% 5% 676px;
+}
+
+.footer-link-icon {
+    margin: 12px 15px 20px 15px;
+}
+
+.footer-link-icon a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+html {
+    scroll-behavior: smooth;
+}
